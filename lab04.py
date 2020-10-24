@@ -1,7 +1,7 @@
 import rospy
 from std_msgs.msg import String
 
-rospy.init_node('exercicio')
+rospy.init_node('lab04')
 
 def timerCallBack(event):
     msg = String()
